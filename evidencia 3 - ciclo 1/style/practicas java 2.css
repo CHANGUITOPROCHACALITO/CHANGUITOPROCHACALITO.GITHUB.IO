@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Square+Peg&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    background-color: black;
+}
+
+img{
+    width: 50px;
+    border-radius: 30%;
+}
+
+.encabezado nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: black;
+}
+
+.encabezado nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+    padding: 12px 20px;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a:hover{
+    background-color: rgb(44,44,44);
+}
+
+.encabezado nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado nav ul li ul{
+    position: absolute;
+    background: black;
+}
+
+.encabezado nav ul li ul li{
+    width: 180px;
+    position: relative;
+}
+
+.encabezado nav ul li ul{
+    display: none;
+}
+
+.encabezado nav ul li:hover>ul{
+    display: block;
+}
+
+html{
+    font-size: 60%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    /* Centra y ordena al medio */
+    align-items: center;
+    justify-content: center;
+    /* Esta unidad esta basada en el alto de vista de la ventana */
+    height: 100vh;
+    padding: 15px;
+    border: 1px solid darkgray;
+    
+}
+
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 2em;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.resultado{
+    padding: 25px 15px;
+    width: 100%;
+    text-align: right;
+    border: 1px solid black;
+    overflow-x: auto;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.keypad{
+    display: flex;
+    width: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.numeros{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boton{
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.boton:hover{
+    filter: brightness(70%);
+}
+
+.largo{
+    width: 50%;
+    
+}
+
+.amarillo{
+    background-color: chartreuse;
+}
+
+h1{
+    text-align: center;
+    padding: 15px 0;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
