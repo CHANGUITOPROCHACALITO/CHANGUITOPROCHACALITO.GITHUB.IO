@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.titulo{
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: yellow;
+}
+.encabezado{
+    background-color: black;
+}
+
+img{
+    width: 50px;
+    border-radius: 30%;
+}
+
+.encabezado nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: black;
+}
+
+.encabezado nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: yellow;
+    padding: 12px 20px;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a:hover{
+    background-color: rgb(44,44,44);
+}
+
+.encabezado nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado nav ul li ul{
+    position: absolute;
+    background: black;
+}
+
+.encabezado nav ul li ul li{
+    width: 180px;
+    position: relative;
+}
+
+.encabezado nav ul li ul{
+    display: none;
+}
+
+.encabezado nav ul li:hover>ul{
+    display: block;
+}
+.definision-java{
+    font-size: 35px;
+    display: block;
+    background-color: rgb(128, 0, 255);
+    padding: 15px;
+    margin: 20px 0 0;
+    text-align: center;
+    font-family:fantasy;
+
+}
+
+.parrafo-java{
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.imagen-definicion-java{
+    margin: 20px;
+    height: 500px;
+    background: url(/image/imagen\ definion\ java.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-position: center;
+    
+    
+}
+
+.que-hace-java{
+    text-align: center;
+    background-color: rgba(0, 255, 4, 0.957);
+    padding: 15px;
+    font-size: 40px;
+    font-family:fantasy;
+
+}
+
+.parrafo-que-hace-java{
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.imagen-que-hace-java{
+    margin: 20px 500px;
+    height: 500px;
+    background: url(/image/imagen\ que\ hace\ java.png);
+    background-repeat: no-repeat;
+    padding: 0px;
+    background-position: center;
+    background-color: black;
+}
+
+.pie-de-pagina{
+    display: block;
+    margin: 10px 0;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.facebook{
+    margin: 20px 0 5px;
+}
+.enlace{
+    display: inline;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-family: cursive;
+    padding: 5px;
+}
+.whatsapp{
+    margin: 20px 0 5px;
+}
+
+.enlaceWhatsapp{
+    display: inline;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-family: cursive;
+    padding: 5px;
+}
+
+/*data-aos="zoom-in-left"
+
+
+
+
+
+
+
+
+
